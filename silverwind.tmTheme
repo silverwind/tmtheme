@@ -24,17 +24,17 @@
           <key>invisibles</key>
           <string>#404040</string>
           <key>lineHighlight</key>
-          <string>#15130C</string>
+          <string>#201810</string>
           <key>multiEditHighlight</key>
           <string>#00FF00</string>
           <key>searchHighlight</key>
           <string>#FF00AA</string>
           <key>selection</key>
-          <string>#003366</string>
+          <string>#442200</string>
           <key>stackGuide</key>
           <string>#1E1E1E</string>
           <key>activeGuide</key>
-          <string>#282828</string>
+          <string>#332211</string>
           <key>tagsOptions</key>
           <string>stippled_underline</string>
         </dict>
