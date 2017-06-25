@@ -115,7 +115,7 @@
         <key>name</key>
         <string>String</string>
         <key>scope</key>
-        <string>string</string>
+        <string>string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -129,10 +129,9 @@
         <string>support</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string/>
           <key>foreground</key>
-          <string>#E6E1C4</string>
+          <string>#d88235</string>
+          <!-- <string>#E6E1C4</string> -->
         </dict>
       </dict>
       <dict>
@@ -191,6 +190,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+        <key>scope</key>
+        <string>constant.numeric, support.constant, constant.character, variable.parameter, keyword.other.unit</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#6C99BB</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>String.regexp</string>
         <key>scope</key>
         <string>string.regexp</string>
@@ -226,15 +236,26 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Support.function</string>
+        <string>Function, Special Method, Block Level</string>
         <key>scope</key>
-        <string>support.function</string>
+        <string>entity.name.function, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string/>
           <key>foreground</key>
           <string>#EFAC32</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Sub-methods</string>
+        <key>scope</key>
+        <string>entity.name.module.js, variable.import.parameter.js, variable.other.class.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#EC5F67</string>
         </dict>
       </dict>
       <dict>
