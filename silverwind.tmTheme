@@ -130,8 +130,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#d88235</string>
-          <!-- <string>#E6E1C4</string> -->
+          <string>#E6E1C4</string>
         </dict>
       </dict>
       <dict>
