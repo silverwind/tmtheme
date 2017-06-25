@@ -76,7 +76,7 @@
         <key>name</key>
         <string>Entity</string>
         <key>scope</key>
-        <string>entity</string>
+        <string>entity, keyword.other.substitution.begin.js, keyword.other.substitution.end.js</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
@@ -115,7 +115,7 @@
         <key>name</key>
         <string>String</string>
         <key>scope</key>
-        <string>string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
+        <string>string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js, string.interpolated.js, keyword.other.template.begin.js, string.interpolated.js keyword.other.template.end.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
