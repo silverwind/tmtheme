@@ -67,7 +67,7 @@
       <key>name</key>
       <string>Variable</string>
       <key>scope</key>
-      <string>variable, entity.other.attribute-value.handlebars variable.parameter.handlebars, support.module, entity.name.function</string>
+      <string>variable, entity.other.attribute-value.handlebars variable.parameter.handlebars, support.module, entity.name.function, support.type.object</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -89,7 +89,7 @@
       <key>name</key>
       <string>Operator, Misc</string>
       <key>scope</key>
-      <string>meta.function-call.method entity.name.function, meta.property.object, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, meta.property variable, constant.other.unit</string>
+      <string>meta.function-call.method entity.name.function, meta.property.object, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, meta.property variable, constant.other.unit, support.function, meta.function-call.method variable.function</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -133,7 +133,7 @@
       <key>name</key>
       <string>String, Symbols, Inherited Class, Markup Heading</string>
       <key>scope</key>
-      <string>keyword.other.template, string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter,
+      <string>string entity.name.function, keyword.other.template, string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter,
       punctuation.definition.string
       </string>
       <key>settings</key>
@@ -192,7 +192,7 @@
       <key>name</key>
       <string>entity.name.method.js</string>
       <key>scope</key>
-      <string>entity.name.method.js, variable.function, entity.other.attribute-name</string>
+      <string>entity.name.method.js,entity.other.attribute-name</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
