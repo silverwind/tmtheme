@@ -963,6 +963,28 @@
       <string>#565656</string>
     </dict>
   </dict>
+  <dict>
+    <key>name</key>
+    <string>Linter Warning</string>
+    <key>scope</key>
+    <string>markup.warning</string>
+    <key>settings</key>
+    <dict>
+      <key>background</key>
+      <string>#888844</string>
+    </dict>
+  </dict>
+  <dict>
+    <key>name</key>
+    <string>Linter Error</string>
+    <key>scope</key>
+    <string>markup.error</string>
+    <key>settings</key>
+    <dict>
+      <key>background</key>
+      <string>#bb3333</string>
+    </dict>
+  </dict>
   </array>
 </dict>
 </plist>
