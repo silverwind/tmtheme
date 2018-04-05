@@ -971,7 +971,7 @@
     <key>settings</key>
     <dict>
       <key>background</key>
-      <string>#888844</string>
+      <string>#999933</string>
     </dict>
   </dict>
   <dict>
@@ -982,7 +982,7 @@
     <key>settings</key>
     <dict>
       <key>background</key>
-      <string>#bb3333</string>
+      <string>#ff2222</string>
     </dict>
   </dict>
   </array>
