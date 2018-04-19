@@ -967,18 +967,18 @@
     <key>name</key>
     <string>Linter Warning</string>
     <key>scope</key>
-    <string>markup.warning</string>
+    <string>markup.warning markup.changed region.yellowish</string>
     <key>settings</key>
     <dict>
       <key>background</key>
-      <string>#999933</string>
+      <string>#aaaa33</string>
     </dict>
   </dict>
   <dict>
     <key>name</key>
     <string>Linter Error</string>
     <key>scope</key>
-    <string>markup.error</string>
+    <string>markup.error markup.deleted region.redish</string>
     <key>settings</key>
     <dict>
       <key>background</key>
