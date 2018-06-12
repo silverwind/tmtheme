@@ -967,7 +967,7 @@
     <key>name</key>
     <string>Linter Warning</string>
     <key>scope</key>
-    <string>markup.warning markup.changed region.yellowish</string>
+    <string>markup.warning,markup.changed,region.yellowish</string>
     <key>settings</key>
     <dict>
       <key>background</key>
@@ -978,11 +978,11 @@
     <key>name</key>
     <string>Linter Error</string>
     <key>scope</key>
-    <string>markup.error markup.deleted region.redish</string>
+    <string>markup.error,markup.deleted,region.redish</string>
     <key>settings</key>
     <dict>
       <key>background</key>
-      <string>#ff2222</string>
+      <string>#cc2222</string>
     </dict>
   </dict>
   </array>
