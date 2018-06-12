@@ -422,569 +422,569 @@
       </dict>
     </dict>
     <dict>
-    <key>name</key>
-    <string>CSS Attributes</string>
-    <key>scope</key>
-    <string>meta.selector.css entity.name.tag, meta.selector.css entity.other.attribute-name.class, meta.selector.css entity.other.attribute-name.id</string>
-    <key>settings</key>
-    <dict>
-      <key>foreground</key>
-      <string>#EFAC32</string>
+      <key>name</key>
+      <string>CSS Attributes</string>
+      <key>scope</key>
+      <string>meta.selector.css entity.name.tag, meta.selector.css entity.other.attribute-name.class, meta.selector.css entity.other.attribute-name.id</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#EFAC32</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>CSS Values</string>
-    <key>scope</key>
-    <string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#C699BB</string>
+      <key>name</key>
+      <string>CSS Values</string>
+      <key>scope</key>
+      <string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C699BB</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>CSS Constants</string>
-    <key>scope</key>
-    <string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#6C99BB</string>
+      <key>name</key>
+      <string>CSS Constants</string>
+      <key>scope</key>
+      <string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#6C99BB</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>css tag-name</string>
-    <key>scope</key>
-    <string>meta.selector.css entity.name.tag</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#CDA869</string>
+      <key>name</key>
+      <string>css tag-name</string>
+      <key>scope</key>
+      <string>meta.selector.css entity.name.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CDA869</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>css:pseudo-class</string>
-    <key>scope</key>
-    <string>meta.selector.css entity.other.attribute-name.tag.pseudo-class</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#8F9D6A</string>
+      <key>name</key>
+      <string>css:pseudo-class</string>
+      <key>scope</key>
+      <string>meta.selector.css entity.other.attribute-name.tag.pseudo-class</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8F9D6A</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>css#id</string>
-    <key>scope</key>
-    <string>meta.selector.css entity.other.attribute-name.id</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#1af</string>
+      <key>name</key>
+      <string>css#id</string>
+      <key>scope</key>
+      <string>meta.selector.css entity.other.attribute-name.id</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#1af</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>css.class</string>
-    <key>scope</key>
-    <string>meta.selector.css entity.other.attribute-name.class</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#EFAC32</string>
+      <key>name</key>
+      <string>css.class</string>
+      <key>scope</key>
+      <string>meta.selector.css entity.other.attribute-name.class</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#EFAC32</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>css property-name:</string>
-    <key>scope</key>
-    <string>support.type.property-name.css</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#C5AF75</string>
+      <key>name</key>
+      <string>css property-name:</string>
+      <key>scope</key>
+      <string>support.type.property-name.css</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C5AF75</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>css property-value;</string>
-    <key>scope</key>
-    <string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#F9EE98</string>
+      <key>name</key>
+      <string>css property-value;</string>
+      <key>scope</key>
+      <string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F9EE98</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>css @at-rule</string>
-    <key>scope</key>
-    <string>meta.preprocessor.at-rule keyword.control.at-rule</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#8693A5</string>
+      <key>name</key>
+      <string>css @at-rule</string>
+      <key>scope</key>
+      <string>meta.preprocessor.at-rule keyword.control.at-rule</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8693A5</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>css additional-constants</string>
-    <key>scope</key>
-    <string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#CA7840</string>
+      <key>name</key>
+      <string>css additional-constants</string>
+      <key>scope</key>
+      <string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CA7840</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>css constructor.argument</string>
-    <key>scope</key>
-    <string>meta.constructor.argument.css</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#8F9D6A</string>
+      <key>name</key>
+      <string>css constructor.argument</string>
+      <key>scope</key>
+      <string>meta.constructor.argument.css</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8F9D6A</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Annotations</string>
-    <key>scope</key>
-    <string>sublimelinter.annotations</string>
-    <key>settings</key>
     <dict>
-      <key>background</key>
-      <string>#555500</string>
+      <key>name</key>
+      <string>SublimeLinter Annotations</string>
+      <key>scope</key>
+      <string>sublimelinter.annotations</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#555500</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Error Outline</string>
-    <key>scope</key>
-    <string>sublimelinter.outline.illegal</string>
-    <key>settings</key>
     <dict>
-      <key>background</key>
-      <string>#400000</string>
+      <key>name</key>
+      <string>SublimeLinter Error Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#400000</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Error Underline</string>
-    <key>scope</key>
-    <string>sublimelinter.underline.illegal</string>
-    <key>settings</key>
     <dict>
-      <key>background</key>
-      <string>#FF0000</string>
+      <key>name</key>
+      <string>SublimeLinter Error Underline</string>
+      <key>scope</key>
+      <string>sublimelinter.underline.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#FF0000</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Warning Outline</string>
-    <key>scope</key>
-    <string>sublimelinter.outline.warning</string>
-    <key>settings</key>
     <dict>
-      <key>background</key>
-      <string>#303000</string>
+      <key>name</key>
+      <string>SublimeLinter Warning Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.warning</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#303000</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Warning Underline</string>
-    <key>scope</key>
-    <string>sublimelinter.underline.warning</string>
-    <key>settings</key>
     <dict>
-      <key>background</key>
-      <string>#999900</string>
+      <key>name</key>
+      <string>SublimeLinter Warning Underline</string>
+      <key>scope</key>
+      <string>sublimelinter.underline.warning</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#999900</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Violation Outline</string>
-    <key>scope</key>
-    <string>sublimelinter.outline.violation</string>
-    <key>settings</key>
     <dict>
-      <key>background</key>
-      <string>#ffffff33</string>
+      <key>name</key>
+      <string>SublimeLinter Violation Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.violation</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#ffffff33</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Violation Underline</string>
-    <key>scope</key>
-    <string>sublimelinter.underline.violation</string>
-    <key>settings</key>
     <dict>
-      <key>background</key>
-      <string>#ee5555</string>
+      <key>name</key>
+      <string>SublimeLinter Violation Underline</string>
+      <key>scope</key>
+      <string>sublimelinter.underline.violation</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#ee5555</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Unmatched</string>
-    <key>scope</key>
-    <string>brackethighlighter.unmatched</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#611</string>
+      <key>name</key>
+      <string>Unmatched</string>
+      <key>scope</key>
+      <string>brackethighlighter.unmatched</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#611</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Bracket Curly</string>
-    <key>scope</key>
-    <string>brackethighlighter.curly</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#333</string>
+      <key>name</key>
+      <string>Bracket Curly</string>
+      <key>scope</key>
+      <string>brackethighlighter.curly</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Bracket Round</string>
-    <key>scope</key>
-    <string>brackethighlighter.round</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#333</string>
+      <key>name</key>
+      <string>Bracket Round</string>
+      <key>scope</key>
+      <string>brackethighlighter.round</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Bracket Square</string>
-    <key>scope</key>
-    <string>brackethighlighter.square</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#333</string>
+      <key>name</key>
+      <string>Bracket Square</string>
+      <key>scope</key>
+      <string>brackethighlighter.square</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Bracket Angle</string>
-    <key>scope</key>
-    <string>brackethighlighter.angle</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#333</string>
+      <key>name</key>
+      <string>Bracket Angle</string>
+      <key>scope</key>
+      <string>brackethighlighter.angle</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Bracket Tag</string>
-    <key>scope</key>
-    <string>brackethighlighter.tag</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#333</string>
+      <key>name</key>
+      <string>Bracket Tag</string>
+      <key>scope</key>
+      <string>brackethighlighter.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Single Quote | Double Quote | Regex</string>
-    <key>scope</key>
-    <string>brackethighlighter.quote</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#333</string>
+      <key>name</key>
+      <string>Single Quote | Double Quote | Regex</string>
+      <key>scope</key>
+      <string>brackethighlighter.quote</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Warning</string>
-    <key>scope</key>
-    <string>sublimelinter.mark.warning</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#DDB700</string>
+      <key>name</key>
+      <string>SublimeLinter Warning</string>
+      <key>scope</key>
+      <string>sublimelinter.mark.warning</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#DDB700</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Gutter Mark</string>
-    <key>scope</key>
-    <string>sublimelinter.gutter-mark</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#FFFFFF</string>
+      <key>name</key>
+      <string>SublimeLinter Gutter Mark</string>
+      <key>scope</key>
+      <string>sublimelinter.gutter-mark</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>SublimeLinter Error</string>
-    <key>scope</key>
-    <string>sublimelinter.mark.error</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#D02000</string>
+      <key>name</key>
+      <string>SublimeLinter Error</string>
+      <key>scope</key>
+      <string>sublimelinter.mark.error</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D02000</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>dollar</string>
-    <key>scope</key>
-    <string>variable.other.dollar.js</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#FF8822</string>
+      <key>name</key>
+      <string>dollar</string>
+      <key>scope</key>
+      <string>variable.other.dollar.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF8822</string>
+      </dict>
     </dict>
-  </dict>
-  <!-- rainbowth -->
-  <dict>
-    <key>scope</key>
-    <string>rainbowth0</string>
-    <key>settings</key>
+    <!-- rainbowth -->
     <dict>
-      <key>foreground</key>
-      <string>#E6E1C4</string>
-      <key>background</key>
-      <string>#0f0a01</string>
+      <key>scope</key>
+      <string>rainbowth0</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#E6E1C4</string>
+        <key>background</key>
+        <string>#0f0a01</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth0-lineHighlight</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#E6E1C4</string>
-      <key>background</key>
-      <string>#15130C</string>
+      <key>scope</key>
+      <string>rainbowth0-lineHighlight</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#E6E1C4</string>
+        <key>background</key>
+        <string>#15130C</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth1</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>orange</string>
-      <key>background</key>
-      <string>#0f0a01</string>
+      <key>scope</key>
+      <string>rainbowth1</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>orange</string>
+        <key>background</key>
+        <string>#0f0a01</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth1-lineHighlight</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>orange</string>
-      <key>background</key>
-      <string>#15130C</string>
+      <key>scope</key>
+      <string>rainbowth1-lineHighlight</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>orange</string>
+        <key>background</key>
+        <string>#15130C</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth2</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>yellow</string>
-      <key>background</key>
-      <string>#0f0a01</string>
+      <key>scope</key>
+      <string>rainbowth2</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>yellow</string>
+        <key>background</key>
+        <string>#0f0a01</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth2-lineHighlight</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>yellow</string>
-      <key>background</key>
-      <string>#15130C</string>
+      <key>scope</key>
+      <string>rainbowth2-lineHighlight</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>yellow</string>
+        <key>background</key>
+        <string>#15130C</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth3</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>green</string>
-      <key>background</key>
-      <string>#0f0a01</string>
+      <key>scope</key>
+      <string>rainbowth3</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>green</string>
+        <key>background</key>
+        <string>#0f0a01</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth3-lineHighlight</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>green</string>
-      <key>background</key>
-      <string>#15130C</string>
+      <key>scope</key>
+      <string>rainbowth3-lineHighlight</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>green</string>
+        <key>background</key>
+        <string>#15130C</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth4</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>blue</string>
-      <key>background</key>
-      <string>#0f0a01</string>
+      <key>scope</key>
+      <string>rainbowth4</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>blue</string>
+        <key>background</key>
+        <string>#0f0a01</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth4-lineHighlight</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>blue</string>
-      <key>background</key>
-      <string>#15130C</string>
+      <key>scope</key>
+      <string>rainbowth4-lineHighlight</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>blue</string>
+        <key>background</key>
+        <string>#15130C</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth5</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>indigo</string>
-      <key>background</key>
-      <string>#0f0a01</string>
+      <key>scope</key>
+      <string>rainbowth5</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>indigo</string>
+        <key>background</key>
+        <string>#0f0a01</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth5-lineHighlight</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>indigo</string>
-      <key>background</key>
-      <string>#15130C</string>
+      <key>scope</key>
+      <string>rainbowth5-lineHighlight</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>indigo</string>
+        <key>background</key>
+        <string>#15130C</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth6</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>violet</string>
-      <key>background</key>
-      <string>#0f0a01</string>
+      <key>scope</key>
+      <string>rainbowth6</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>violet</string>
+        <key>background</key>
+        <string>#0f0a01</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>scope</key>
-    <string>rainbowth6-lineHighlight</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>violet</string>
-      <key>background</key>
-      <string>#15130C</string>
+      <key>scope</key>
+      <string>rainbowth6-lineHighlight</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>violet</string>
+        <key>background</key>
+        <string>#15130C</string>
+      </dict>
     </dict>
-  </dict>
-  <!-- /rainbowth -->
-  <!-- GitGutter -->
-  <dict>
-    <key>name</key>
-    <string>GitGutter deleted</string>
-    <key>scope</key>
-    <string>markup.deleted.git_gutter</string>
-    <key>settings</key>
+    <!-- /rainbowth -->
+    <!-- GitGutter -->
     <dict>
-      <key>foreground</key>
-      <string>#F92672</string>
+      <key>name</key>
+      <string>GitGutter deleted</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F92672</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>GitGutter inserted</string>
-    <key>scope</key>
-    <string>markup.inserted.git_gutter</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#A6E22E</string>
+      <key>name</key>
+      <string>GitGutter inserted</string>
+      <key>scope</key>
+      <string>markup.inserted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#A6E22E</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>GitGutter changed</string>
-    <key>scope</key>
-    <string>markup.changed.git_gutter</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#967EFB</string>
+      <key>name</key>
+      <string>GitGutter changed</string>
+      <key>scope</key>
+      <string>markup.changed.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#967EFB</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>GitGutter ignored</string>
-    <key>scope</key>
-    <string>markup.ignored.git_gutter</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#565656</string>
+      <key>name</key>
+      <string>GitGutter ignored</string>
+      <key>scope</key>
+      <string>markup.ignored.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#565656</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>GitGutter untracked</string>
-    <key>scope</key>
-    <string>markup.untracked.git_gutter</string>
-    <key>settings</key>
     <dict>
-      <key>foreground</key>
-      <string>#565656</string>
+      <key>name</key>
+      <string>GitGutter untracked</string>
+      <key>scope</key>
+      <string>markup.untracked.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#565656</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Linter Warning</string>
-    <key>scope</key>
-    <string>markup.warning,markup.changed,region.yellowish</string>
-    <key>settings</key>
     <dict>
-      <key>background</key>
-      <string>#aaaa33</string>
+      <key>name</key>
+      <string>Linter Warning</string>
+      <key>scope</key>
+      <string>markup.warning,markup.changed,region.yellowish</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#aaaa33</string>
+      </dict>
     </dict>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Linter Error</string>
-    <key>scope</key>
-    <string>markup.error,markup.deleted,region.redish</string>
-    <key>settings</key>
     <dict>
-      <key>background</key>
-      <string>#cc2222</string>
+      <key>name</key>
+      <string>Linter Error</string>
+      <key>scope</key>
+      <string>markup.error,markup.deleted,region.redish</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#cc2222</string>
+      </dict>
     </dict>
-  </dict>
   </array>
 </dict>
 </plist>
