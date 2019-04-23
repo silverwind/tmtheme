@@ -1,0 +1,21 @@
+{
+    "name": "silverwind",
+    "displayName": "silverwind",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "silverwind",
+                "uiTheme": "vs-dark",
+                "path": "./themes/silverwind-color-theme.json"
+            }
+        ]
+    }
+}
