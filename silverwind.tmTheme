@@ -45,7 +45,7 @@
       <key>name</key>
       <string>punctuation</string>
       <key>scope</key>
-      <string>punctuation</string>
+      <string>punctuation.section.block.begin, punctuation.section.block.end</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
