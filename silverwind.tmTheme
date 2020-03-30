@@ -43,7 +43,18 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>white</string>
+      <string>punctuation</string>
+      <key>scope</key>
+      <string>punctuation</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#fbfbfb</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>fg</string>
       <key>scope</key>
       <string>text.html</string>
       <key>settings</key>
@@ -122,7 +133,7 @@
       <key>name</key>
       <string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
       <key>scope</key>
-      <string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit</string>
+      <string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit, meta.binding.destructuring.mapping</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
