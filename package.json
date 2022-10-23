@@ -1,9 +1,11 @@
 {
 	"name": "silverwind-theme",
-	"displayName": "silverwind-theme",
-	"publisher": "silverwind",
-  "license": "BSD-2-Clause",
 	"version": "0.1.0",
+	"displayName": "silverwind-theme",
+	"description": "silverwind-theme",
+	"publisher": "silverwind",
+	"repository": "silverwind/updates",
+	"license": "BSD-2-Clause",
 	"engines": {
 		"vscode": "^1.33.0"
 	},
@@ -17,10 +19,9 @@
 				"uiTheme": "vs-dark",
 				"path": "./silverwind-theme.json"
 			}
-    ]
+		]
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/silverwind/tmtheme.git"
+	"devDependencies": {
+		"vsce": "2.13.0"
 	}
 }
