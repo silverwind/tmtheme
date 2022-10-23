@@ -4,7 +4,7 @@
 	"displayName": "silverwind-theme",
 	"description": "silverwind-theme",
 	"publisher": "silverwind",
-	"repository": "silverwind/updates",
+	"repository": "silverwind/tmtheme",
 	"license": "BSD-2-Clause",
 	"engines": {
 		"vscode": "^1.33.0"
