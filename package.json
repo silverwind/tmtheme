@@ -22,6 +22,8 @@
 		]
 	},
 	"devDependencies": {
+		"updates": "13.1.10",
+		"versions": "10.0.5",
 		"vsce": "2.13.0"
 	}
 }
