@@ -22,16 +22,16 @@ update: node_modules build
 	@touch node_modules
 
 .PHONY: patch
-patch: node_modules test
+patch: node_modules
 	npx versions -c 'make --no-print-directory build' patch package.json package-lock.json
 	@$(MAKE) --no-print-directory publish
 
 .PHONY: minor
-minor: node_modules test
+minor: node_modules
 	npx versions -c 'make --no-print-directory build' minor package.json package-lock.json
 	@$(MAKE) --no-print-directory publish
 
 .PHONY: major
-major: node_modules test
+major: node_modules
 	npx versions -c 'make --no-print-directory build' major package.json package-lock.json
 	@$(MAKE) --no-print-directory publish
