@@ -1,0 +1,26 @@
+{
+	"name": "silverwind-theme",
+	"displayName": "silverwind-theme",
+	"publisher": "silverwind",
+  "license": "BSD-2-Clause",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "silverwind-theme",
+				"uiTheme": "vs-dark",
+				"path": "./silverwind-theme.json"
+			}
+    ]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/silverwind/tmtheme.git"
+	}
+}
