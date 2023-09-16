@@ -1,13 +1,13 @@
 {
 	"name": "silverwind-theme",
-	"version": "0.1.2",
+	"version": "0.2.0",
 	"displayName": "silverwind-theme",
 	"description": "silverwind-theme",
 	"publisher": "silverwind",
 	"repository": "silverwind/tmtheme",
 	"license": "BSD-2-Clause",
 	"engines": {
-		"vscode": "^1.33.0"
+		"vscode": "^1.82.0"
 	},
 	"categories": [
 		"Themes"
@@ -19,11 +19,24 @@
 				"uiTheme": "vs-dark",
 				"path": "./silverwind-theme.json"
 			}
-		]
+		],
+    "iconThemes": [
+      {
+        "id": "silverwind-icons",
+        "label": "silverwind-icons",
+        "path": "./icons/icons.json"
+      }
+    ]
 	},
 	"devDependencies": {
-		"updates": "13.1.10",
-		"versions": "10.0.5",
-		"vsce": "2.13.0"
+		"updates": "15.0.2",
+		"versions": "11.1.0",
+		"vsce": "2.15.0"
+	},
+	"__metadata": {
+		"id": "7071dd52-4284-46c6-b111-239a749b11d0",
+		"publisherDisplayName": "silverwind",
+		"publisherId": "8c23304d-e62c-4fa1-9a59-882533b45a65",
+		"isPreReleaseVersion": false
 	}
 }

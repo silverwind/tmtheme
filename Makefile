@@ -15,8 +15,8 @@ publish: node_modules
 	rm -f *.vsix
 
 .PHONY: update
-update: node_modules build
-	node bin/updates.js -cu -e registry-auth-token
+update: node_modules
+	npx updates -u
 	rm package-lock.json
 	npm install
 	@touch node_modules
