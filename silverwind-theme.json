@@ -11,19 +11,21 @@
     "diffEditor.removedTextBackground": "#702c22e1",
     "dropdown.background": "#51412c",
     "editor.background": "#0F0A00",
-    "editor.foreground": "#d3af86",
-    "editor.lineHighlightBackground": "#4e3923a1",
-    "editor.selectionBackground": "#7c5021a9",
-    "editorCursor.foreground": "#d3af86",
+    "editor.foreground": "#dddddd",
+    "editor.lineHighlightBackground": "#282828",
+    "editor.selectionBackground": "#9995",
+    "editorCursor.foreground": "#fff",
     "editorGroupHeader.tabsBackground": "#131510",
     "editorGutter.deletedBackground": "#7e2b1e",
     "editorGutter.modifiedBackground": "#3C616B",
     "editorHoverWidget.background": "#221a14",
-    "editorLineNumber.activeForeground": "#c2a383",
-    "editorLineNumber.foreground": "#8D643D",
+    "editorLineNumber.activeForeground": "#bbb",
+    "editorLineNumber.foreground": "#777",
     "editorRuler.foreground": "#cc986869",
     "editorWhitespace.foreground": "#a57a4c",
     "editorWidget.background": "#131510",
+    "editor.wordHighlightBackground": "#0000",
+    "editor.wordHighlightBorder": "#ccc",
     "focusBorder": "#a57a4c",
     "gitDecoration.addedResourceForeground": "#7b991a",
     "gitDecoration.deletedResourceForeground": "#dc3958",
@@ -37,11 +39,13 @@
     "inputValidation.infoBackground": "#2b2a42",
     "inputValidation.infoBorder": "#1b60a5",
     "inputValidation.warningBackground": "#51412c",
-    "list.activeSelectionBackground": "#7c5021",
+    "list.activeSelectionForeground": "#653",
+    "list.activeSelectionBackground": "#653",
     "list.focusBackground": "#7c5021AA",
     "list.highlightForeground": "#e3b583",
     "list.hoverBackground": "#7c502166",
-    "list.inactiveSelectionBackground": "#645342",
+    "list.inactiveSelectionForeground": "#fff",
+    "list.inactiveSelectionBackground": "#653",
     "menu.background": "#362712",
     "menu.foreground": "#C2A383",
     "panelTitle.activeBorder": "#274D58",
@@ -60,7 +64,7 @@
     "scrollbarSlider.hoverBackground": "#473522dc",
     "selection.background": "#14613daa",
     "sideBar.background": "#0F0A00",
-    "sideBar.foreground": "#C2A383",
+    "sideBar.foreground": "#b58d5a",
     "sideBarSectionHeader.background": "#241a10",
     "sideBarSectionHeader.foreground": "#8b6a4a",
     "statusBar.background": "#241a10",
@@ -105,11 +109,23 @@
 		},
 		{
 			"name": "white",
-			"scope": "text.html",
+			"scope": [
+        "text.html"
+      ],
 			"settings": {
 				"foreground": "#fbfbfb"
 			}
 		},
+    {
+      "name": "lightwhite",
+      "scope": [
+        "meta.block",
+        "meta.parameters"
+      ],
+      "settings": {
+        "foreground": "#ddd"
+      }
+    },
 		{
 			"name": "Comments",
 			"scope": [
@@ -138,7 +154,8 @@
 			"scope": [
 				"keyword",
 				"storage.type",
-				"storage.modifier support.constant.handlebars"
+				"storage.modifier support.constant.handlebars",
+        "meta.function",
 			],
 			"settings": {
 				"foreground": "#EE6644"
@@ -161,7 +178,9 @@
 				"constant.other.unit",
 				"support.function",
 				"meta.function-call.method variable.function",
-				"meta.function.static entity.name.function"
+				"meta.function.static entity.name.function",
+        "string.template entity.name.function",
+        "variable.other.property"
 			],
 			"settings": {
 				"foreground": "#EFAC32"
@@ -182,7 +201,8 @@
 			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable",
-				"string.other.link"
+				"string.other.link",
+        "meta.template.expression"
 			],
 			"settings": {
 				"foreground": "#F2777A"
@@ -205,7 +225,6 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string entity.name.function",
 				"keyword.other.template",
 				"string",
 				"constant.other.symbol",
@@ -213,7 +232,8 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"punctuation.definition.string"
+				"punctuation.definition.string",
+        "meta.object.member.js"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -239,13 +259,12 @@
 				"entity.name.type.class",
 				"support.type",
 				"support.class",
-				"support.orther.namespace.use.php",
 				"meta.use.php",
-				"support.other.namespace.php",
+				"support.other.namespace",
 				"markup.changed.git_gutter"
 			],
 			"settings": {
-				"foreground": "#FAC863"
+				"foreground": "#fb3"
 			}
 		},
 		{
