@@ -144,7 +144,7 @@
       <key>name</key>
       <string>Function, Special Method, Block Level</string>
       <key>scope</key>
-      <string>meta.function-call support.function, keyword.other.special-method, meta.block-level, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
+      <string>meta.function-call support.function, keyword.other.special-method, meta.block-level, meta.group.braces.curly constant.other.object.key.js, string.unquoted.label, meta.function.prerequisites</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -377,7 +377,7 @@
       <key>name</key>
       <string>JSON key - Level 3</string>
       <key>scope</key>
-      <string>source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string,entity.other.pseudo-class</string>
+      <string>source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -388,7 +388,7 @@
       <key>name</key>
       <string>JSON key - Level 2</string>
       <key>scope</key>
-      <string>source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+      <string>source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string,entity.other.pseudo-class</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -459,17 +459,6 @@
       <dict>
         <key>foreground</key>
         <string>#CDA869</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>css:pseudo-class</string>
-      <key>scope</key>
-      <string>meta.selector.css entity.other.attribute-name.tag.pseudo-class</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#8F9D6A</string>
       </dict>
     </dict>
     <dict>
