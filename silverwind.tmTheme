@@ -87,7 +87,7 @@
       <key>name</key>
       <string>Operator, Misc</string>
       <key>scope</key>
-      <string>meta.function-call.method entity.name.function, meta.property.object, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, meta.property variable, constant.other.unit, support.function, meta.function-call.method variable.function, meta.function.static entity.name.function</string>
+      <string>meta.function-call.method entity.name.function, meta.property.object, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, meta.property variable, constant.other.unit, support.function, meta.function-call.method variable.function, meta.function.static entity.name.function, source.ts meta.function-call.arguments variable.function, source.tsx meta.function-call.arguments variable.function</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
