@@ -7,11 +7,11 @@ deps: node_modules
 
 .PHONY: build
 build: node_modules
-	npx vsce package
+	npx @vscode/vsce package
 
 .PHONY: publish
 publish: node_modules
-	npx vsce publish
+	npx @vscode/vsce publish
 	rm -f *.vsix
 
 .PHONY: update
