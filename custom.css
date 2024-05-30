@@ -1,0 +1,36 @@
+/* Custom CSS for VSCode */
+
+:root {
+  --custom-tab-height: 28px;
+  --custom-tab-font-size: 14px;
+}
+
+.sidebar > .title,
+.tabs-container .monaco-icon-description-container {
+  display: none !important;
+}
+
+.editor-actions {
+  height: var(--custom-tab-height) !important;
+  line-height: var(--custom-tab-height) !important;
+}
+
+.tabs-container {
+  height: unset !important;
+}
+
+.tabs-container .tab {
+  height: var(--custom-tab-height) !important;
+  line-height: var(--custom-tab-height) !important;
+}
+
+.tabs-container .monaco-icon-label {
+  height: var(--custom-tab-height) !important;
+  line-height: var(--custom-tab-height) !important;
+  font-size: var(--custom-tab-font-size) !important;
+}
+
+.tabs-container .monaco-icon-label:before {
+  height: var(--custom-tab-height) !important;
+  line-height: var(--custom-tab-height) !important;
+}
