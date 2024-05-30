@@ -5,9 +5,13 @@
   --custom-tab-font-size: 14px;
 }
 
-.sidebar > .title,
 .tabs-container .monaco-icon-description-container {
   display: none !important;
+}
+
+*:has(> .sidebar) {
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .editor-actions {
@@ -34,3 +38,40 @@
   height: var(--custom-tab-height) !important;
   line-height: var(--custom-tab-height) !important;
 }
+
+/* ========================================================================= */
+
+.sidebar {
+  flex: 1 !important;
+  display: flex !important;
+}
+
+.sidebar > .content {
+  flex: 1 !important;
+  height: unset !important;
+}
+
+.sidebar > .title {
+  display: none !important;
+}
+
+.sidebar .split-view-container[style*="overflow"] {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.sidebar .split-view-container[style*="overflow"] > * {
+  height: unset !important;
+  flex: 1 !important;
+}
+
+.sidebar .folder-icon::before {
+  color: #7c420f !important;
+}
+
+/*.explorer-folders-view .monaco-list-row {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}*/
+
+/* ========================================================================= */
