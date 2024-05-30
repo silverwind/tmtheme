@@ -20,18 +20,18 @@
 				"path": "./silverwind-theme.json"
 			}
 		],
-    "iconThemes": [
-      {
-        "id": "silverwind-icons",
-        "label": "silverwind-icons",
-        "path": "./icons/icons.json"
-      }
-    ]
+		"iconThemes": [
+			{
+				"id": "silverwind-icons",
+				"label": "silverwind-icons",
+				"path": "./icons/icons.json"
+			}
+		]
 	},
 	"devDependencies": {
+		"@vscode/vsce": "2.26.1",
 		"updates": "15.0.2",
-		"versions": "11.1.0",
-		"vsce": "2.15.0"
+		"versions": "11.1.0"
 	},
 	"__metadata": {
 		"id": "7071dd52-4284-46c6-b111-239a749b11d0",
