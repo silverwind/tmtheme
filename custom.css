@@ -49,6 +49,7 @@
 .sidebar > .content {
   flex: 1 !important;
   height: unset !important;
+  font-size: 14px !important;
 }
 
 .sidebar > .title {
