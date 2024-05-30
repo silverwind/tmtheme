@@ -9,6 +9,10 @@
   display: none !important;
 }
 
+.title.tabs {
+  background: none !important;
+}
+
 *:has(> .sidebar) {
   display: flex !important;
   flex-direction: column !important;
