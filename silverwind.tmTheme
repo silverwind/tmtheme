@@ -65,7 +65,7 @@
       <key>name</key>
       <string>Variable</string>
       <key>scope</key>
-      <string>variable, entity.other.attribute-value.handlebars variable.parameter.handlebars, support.module, entity.name.function, entity.name.type, support.type.object</string>
+      <string>variable, entity.other.attribute-value.handlebars variable.parameter.handlebars, support.module, entity.name.function, entity.name.type, entity.name.interface, support.type.object</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -76,7 +76,7 @@
       <key>name</key>
       <string>Keyword, Storage</string>
       <key>scope</key>
-      <string>keyword, storage.type, storage.modifier support.constant.handlebars, meta.interpolation.js,markup.error.lsp</string>
+      <string>keyword, storage.type, storage.modifier support.constant.handlebars, meta.interpolation.js, markup.error.lsp</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -210,7 +210,7 @@
       <key>name</key>
       <string>Inserted</string>
       <key>scope</key>
-      <string>markup.inserted,markup.info.hint.lsp</string>
+      <string>markup.inserted, markup.info.hint.lsp</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
