@@ -14,6 +14,9 @@ importers:
       updates:
         specifier: 15.0.2
         version: 15.0.2
+      updates-config-silverwind:
+        specifier: 1.0.3
+        version: 1.0.3(prettier@3.8.1)
       versions:
         specifier: 11.1.0
         version: 11.1.0
@@ -506,6 +509,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   pump@3.0.3:
     resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
 
@@ -614,6 +622,12 @@ packages:
   undici@7.20.0:
     resolution: {integrity: sha512-MJZrkjyd7DeC+uPZh+5/YaMDxFiiEEaDgbUSVMXayofAkDWF1088CDo+2RPg7B1BuS1qf1vgNE7xqwPxE0DuSQ==}
     engines: {node: '>=20.18.1'}
+
+  updates-config-silverwind@1.0.3:
+    resolution: {integrity: sha512-g4sNvatyceKwxpGc3EAebV7zfnVCwhMqsfV7fqu8YIsBodTO5pvlga6ejunHKewKvGbOuz6Vvnvi8TUQH5Wbug==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      prettier: '*'
 
   updates@15.0.2:
     resolution: {integrity: sha512-bdVZgJ2lr4Ke3pWyq7bT9ynJ5L4J69xERSvMMlt96nWlzVhB5kG8tYzicqI3I5Bpyj7cAv9MLBxDWaj/mB+nfg==}
@@ -1272,6 +1286,8 @@ snapshots:
       tunnel-agent: 0.6.0
     optional: true
 
+  prettier@3.8.1: {}
+
   pump@3.0.3:
     dependencies:
       end-of-stream: 1.4.5
@@ -1402,6 +1418,10 @@ snapshots:
   underscore@1.13.7: {}
 
   undici@7.20.0: {}
+
+  updates-config-silverwind@1.0.3(prettier@3.8.1):
+    dependencies:
+      prettier: 3.8.1
 
   updates@15.0.2: {}
 
