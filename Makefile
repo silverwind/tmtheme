@@ -23,14 +23,14 @@ update: node_modules
 .PHONY: patch
 patch: node_modules
 	pnpm exec versions -c 'make --no-print-directory build' patch package.json
-	@$(MAKE) --no-print-directory publish
+	git push -u --tags origin master
 
 .PHONY: minor
 minor: node_modules
 	pnpm exec versions -c 'make --no-print-directory build' minor package.json
-	@$(MAKE) --no-print-directory publish
+	git push -u --tags origin master
 
 .PHONY: major
 major: node_modules
 	pnpm exec versions -c 'make --no-print-directory build' major package.json
-	@$(MAKE) --no-print-directory publish
+	git push -u --tags origin master
