@@ -11,8 +11,7 @@ build: node_modules
 
 .PHONY: publish
 publish: node_modules
-	pnpm exec @vscode/vsce publish
-	rm -f *.vsix
+	pnpm publish --no-git-checks
 
 .PHONY: update
 update: node_modules
