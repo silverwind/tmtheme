@@ -6,6 +6,7 @@
   "publisher": "silverwind",
   "repository": "silverwind/tmtheme",
   "license": "BSD-2-Clause",
+  "sideEffects": false,
   "packageManager": "pnpm@10.28.2",
   "engines": {
     "vscode": "^1.82.0"
