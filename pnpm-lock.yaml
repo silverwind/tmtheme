@@ -18,8 +18,8 @@ importers:
         specifier: 1.0.3
         version: 1.0.3(prettier@3.8.1)
       versions:
-        specifier: 11.1.0
-        version: 11.1.0
+        specifier: 14.3.1
+        version: 14.3.1
 
 packages:
 
@@ -644,9 +644,9 @@ packages:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
 
-  versions@11.1.0:
-    resolution: {integrity: sha512-BNxCRRNJJiuMm8LXvKyk6TJLQH0mLn497rqwNoNpo/gXi+DMrOGeP8QfnRICtingob3Lu7cOnO5v/JKnxiVyPA==}
-    engines: {node: '>=16'}
+  versions@14.3.1:
+    resolution: {integrity: sha512-goCSxgrE0dWs1lOBgvdfQEaSYHlY9ogHofsAZ9KLTp10uvkm/TlZY4/I7cl2/n80tmZFSCcnhfhlE+9CEuTrcg==}
+    engines: {node: '>=22'}
     hasBin: true
 
   whatwg-encoding@3.1.1:
@@ -1432,7 +1432,7 @@ snapshots:
 
   uuid@8.3.2: {}
 
-  versions@11.1.0: {}
+  versions@14.3.1: {}
 
   whatwg-encoding@3.1.1:
     dependencies:
