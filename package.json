@@ -31,9 +31,9 @@
     ]
   },
   "devDependencies": {
-    "@vscode/vsce": "2.26.1",
-    "updates": "15.0.2",
-    "updates-config-silverwind": "1.0.3",
+    "@vscode/vsce": "3.7.1",
+    "updates": "17.15.2",
+    "updates-config-silverwind": "2.1.0",
     "versions": "14.3.1"
   },
   "__metadata": {
