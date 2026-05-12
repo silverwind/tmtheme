@@ -9,17 +9,17 @@ importers:
   .:
     devDependencies:
       '@vscode/vsce':
-        specifier: 3.7.1
-        version: 3.7.1
+        specifier: 3.9.1
+        version: 3.9.1
       updates:
-        specifier: 17.15.2
-        version: 17.15.2
+        specifier: 17.16.10
+        version: 17.16.10
       updates-config-silverwind:
-        specifier: 2.1.0
-        version: 2.1.0(prettier@3.8.1)
+        specifier: 3.0.2
+        version: 3.0.2(prettier@3.8.1)
       versions:
-        specifier: 15.0.0
-        version: 15.0.0
+        specifier: 15.0.3
+        version: 15.0.3
 
 packages:
 
@@ -219,8 +219,8 @@ packages:
   '@vscode/vsce-sign@2.0.9':
     resolution: {integrity: sha512-8IvaRvtFyzUnGGl3f5+1Cnor3LqaUWvhaUjAYO8Y39OUYlOf3cRd+dowuQYLpZcP3uwSG+mURwjEBOSq4SOJ0g==}
 
-  '@vscode/vsce@3.7.1':
-    resolution: {integrity: sha512-OTm2XdMt2YkpSn2Nx7z2EJtSuhRHsTPYsSK59hr3v8jRArK+2UEoju4Jumn1CmpgoBLGI6ReHLJ/czYltNUW3g==}
+  '@vscode/vsce@3.9.1':
+    resolution: {integrity: sha512-MPn5p+DoudI+3GfJSpAZZraE1lgLv0LcwbH3+xy7RgEhty3UIkmUMUA+5jPTDaxXae00AnX5u77FxGM8FhfKKA==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -484,9 +484,6 @@ packages:
 
   fastq@1.20.1:
     resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
-
-  fd-slicer@1.1.0:
-    resolution: {integrity: sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==}
 
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
@@ -1097,14 +1094,14 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  updates-config-silverwind@2.1.0:
-    resolution: {integrity: sha512-PvtBYRAGWQYCFSnc/FzfGwkV8INcCbRoCPiEz79MgcRq574N3eEES7T11AdM0SxmxwDeIbQWdvKVo1JJxCJolA==}
-    engines: {node: '>=20'}
+  updates-config-silverwind@3.0.2:
+    resolution: {integrity: sha512-5T/OOdMxvkvNgFpV5uTOcJujTmFfDoMS4yv9Y6SiK+48sA4nVcXPUqg7Ac3s/b41hmC2E225EEotlxtBY8PlYg==}
+    engines: {node: '>=22'}
     peerDependencies:
       prettier: '*'
 
-  updates@17.15.2:
-    resolution: {integrity: sha512-hL8i3O5xAZoZdYT3M0YENt9Ykyhl1+d8gJpMuxE+YHKXSX6amahzilaup1yUo5Eeijw18bz5ev52b3p4rjQjJQ==}
+  updates@17.16.10:
+    resolution: {integrity: sha512-5RvpiYF9c4FqKVSyEbDoOCyshfnjBmTRO/Z3viLdWIyCKyetzeVzPB9+rc2qeY6CM32IoBhY/ptXgL7D0OKfiQ==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -1116,6 +1113,7 @@ packages:
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   validate-npm-package-license@3.0.4:
@@ -1125,8 +1123,8 @@ packages:
     resolution: {integrity: sha512-Ck0EJbAGxHwprkzFO966t4/5QkRuzh+/I1RxhLgUKKwEn+Cd8NwM60mE3AqBZg5gYODoXW0EFsQvbZjRlvdqbg==}
     engines: {node: '>=4'}
 
-  versions@15.0.0:
-    resolution: {integrity: sha512-y+RVJFGDWqso8TfohGZGBqouZ0gF7LlB38b7r1Yq3nAKpmDfeWrVpbrqvqbiNPRm6rPTcVXg3BwjV3EQC+EP3Q==}
+  versions@15.0.3:
+    resolution: {integrity: sha512-jN9A/S+tBxRbslAtqGIBZUkuM8UeWMdZadAZzgsg+MlMY/B8SPiY5PtJs3Puj6R2+N7RU+ZmI3lfyIvd8Y8M5A==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -1162,8 +1160,9 @@ packages:
   yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
 
-  yauzl@2.10.0:
-    resolution: {integrity: sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==}
+  yauzl@3.3.0:
+    resolution: {integrity: sha512-PtGEvEP30p7sbIBJKUBjUnqgTVOyMURc4dLo9iNyAJnNIEz9pm88cCXF21w94Kg3k6RXkeZh5DHOGS0qEONvNQ==}
+    engines: {node: '>=12'}
 
   yazl@2.5.1:
     resolution: {integrity: sha512-phENi2PLiHnHb6QBVot+dJnaAZ0xosj7p3fWl+znIjBDlnMI2PsZCJZ306BPTFOaHf5qdDEI8x5qFrSOBN5vrw==}
@@ -1437,7 +1436,7 @@ snapshots:
       '@vscode/vsce-sign-win32-arm64': 2.0.6
       '@vscode/vsce-sign-win32-x64': 2.0.6
 
-  '@vscode/vsce@3.7.1':
+  '@vscode/vsce@3.9.1':
     dependencies:
       '@azure/identity': 4.13.0
       '@secretlint/node': 10.2.2
@@ -1466,7 +1465,7 @@ snapshots:
       typed-rest-client: 1.8.11
       url-join: 4.0.1
       xml2js: 0.5.0
-      yauzl: 2.10.0
+      yauzl: 3.3.0
       yazl: 2.5.1
     optionalDependencies:
       keytar: 7.9.0
@@ -1740,10 +1739,6 @@ snapshots:
   fastq@1.20.1:
     dependencies:
       reusify: 1.1.0
-
-  fd-slicer@1.1.0:
-    dependencies:
-      pend: 1.2.0
 
   fill-range@7.1.1:
     dependencies:
@@ -2401,11 +2396,11 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  updates-config-silverwind@2.1.0(prettier@3.8.1):
+  updates-config-silverwind@3.0.2(prettier@3.8.1):
     dependencies:
       prettier: 3.8.1
 
-  updates@17.15.2: {}
+  updates@17.16.10: {}
 
   url-join@4.0.1: {}
 
@@ -2421,7 +2416,7 @@ snapshots:
 
   version-range@4.15.0: {}
 
-  versions@15.0.0: {}
+  versions@15.0.3: {}
 
   whatwg-encoding@3.1.1:
     dependencies:
@@ -2449,10 +2444,10 @@ snapshots:
 
   yallist@4.0.0: {}
 
-  yauzl@2.10.0:
+  yauzl@3.3.0:
     dependencies:
       buffer-crc32: 0.2.13
-      fd-slicer: 1.1.0
+      pend: 1.2.0
 
   yazl@2.5.1:
     dependencies:
