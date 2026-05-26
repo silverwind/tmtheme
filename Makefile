@@ -14,7 +14,7 @@ publish: node_modules
 	pnpm publish --no-git-checks
 
 .PHONY: update
-update: node_modules
+update: node_modules update-actions
 	pnpm exec updates -u
 	rm pnpm-lock.yaml
 	pnpm install
@@ -31,3 +31,7 @@ minor: node_modules
 .PHONY: major
 major: node_modules
 	pnpm exec versions -R -c 'make --no-print-directory build' major package.json
+
+.PHONY: update-actions
+update-actions: node_modules
+	pnpm exec updates -u -M actions
