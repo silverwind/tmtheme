@@ -23,17 +23,9 @@ update-js: node_modules
 	pnpm install
 	@touch node_modules
 
-.PHONY: patch
-patch: node_modules
-	pnpm exec versions -R -c 'make --no-print-directory build' patch package.json
-
-.PHONY: minor
-minor: node_modules
-	pnpm exec versions -R -c 'make --no-print-directory build' minor package.json
-
-.PHONY: major
-major: node_modules
-	pnpm exec versions -R -c 'make --no-print-directory build' major package.json
+.PHONY: patch minor major
+patch minor major: node_modules
+	pnpm exec versions -R -c 'make --no-print-directory build' $@ package.json
 
 .PHONY: update-actions
 update-actions: node_modules
