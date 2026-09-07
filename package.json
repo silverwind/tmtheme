@@ -7,7 +7,7 @@
   "repository": "silverwind/tmtheme",
   "license": "BSD-2-Clause",
   "sideEffects": false,
-  "packageManager": "pnpm@11.5.2",
+  "packageManager": "pnpm@12.3.4",
   "engines": {
     "vscode": "^1.82.0"
   },

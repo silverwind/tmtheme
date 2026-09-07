@@ -7,7 +7,7 @@ deps: node_modules
 
 .PHONY: build
 build: node_modules
-	pnpm exec @vscode/vsce package
+	pnpm exec vsce package
 
 .PHONY: publish
 publish: node_modules
