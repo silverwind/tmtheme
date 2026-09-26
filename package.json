@@ -7,7 +7,7 @@
   "repository": "silverwind/tmtheme",
   "license": "BSD-2-Clause",
   "sideEffects": false,
-  "packageManager": "pnpm@12.3.4",
+  "packageManager": "pnpm@12.6.0",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -31,10 +31,10 @@
     ]
   },
   "devDependencies": {
-    "@vscode/vsce": "3.9.1",
-    "updates": "17.16.10",
-    "updates-config-silverwind": "4.0.0",
-    "versions": "15.0.3"
+    "@vscode/vsce": "4.0.0",
+    "updates": "19.0.2",
+    "updates-config-silverwind": "4.0.7",
+    "versions": "15.5.1"
   },
   "__metadata": {
     "id": "7071dd52-4284-46c6-b111-239a749b11d0",
