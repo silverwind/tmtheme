@@ -5,6 +5,15 @@ node_modules: pnpm-lock.yaml
 .PHONY: deps
 deps: node_modules
 
+.PHONY: lint
+lint: node_modules
+
+.PHONY: lint-fix
+lint-fix: node_modules
+
+.PHONY: test
+test: node_modules
+
 .PHONY: build
 build: node_modules
 	pnpm exec vsce package
@@ -23,10 +32,10 @@ update-js: node_modules
 	pnpm install
 	@touch node_modules
 
-.PHONY: patch minor major
-patch minor major: node_modules
-	pnpm exec versions -R -c 'make --no-print-directory build' $@ package.json
-
 .PHONY: update-actions
 update-actions: node_modules
 	pnpm exec updates -u -M actions
+
+.PHONY: patch minor major
+patch minor major: node_modules lint test
+	pnpm exec versions -R -c 'make --no-print-directory build' $@ package.json
