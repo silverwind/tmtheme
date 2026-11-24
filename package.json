@@ -15,7 +15,7 @@
     "silverwind-theme.json",
     "silverwind.tmTheme"
   ],
-  "packageManager": "pnpm@12.6.0",
+  "packageManager": "pnpm@12.23.0",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -39,10 +39,10 @@
     ]
   },
   "devDependencies": {
-    "@vscode/vsce": "4.0.0",
-    "updates": "19.0.2",
-    "updates-config-silverwind": "4.0.7",
-    "versions": "15.5.1"
+    "@vscode/vsce": "4.1.1",
+    "updates": "20.0.2",
+    "updates-config-silverwind": "4.1.0",
+    "versions": "15.5.2"
   },
   "__metadata": {
     "id": "7071dd52-4284-46c6-b111-239a749b11d0",
